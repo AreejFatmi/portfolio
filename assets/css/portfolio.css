@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  cursor: pointer !important;
+  text-decoration: none !important;
+  color: #3b3b3b !important;
+}
+
+.main-section .logo {
+  font-family: "Permanent Marker";
+  font-weight: normal;
+  font-size: 40px;
+  color: #3b3b3b;
+}
+
+.main-section a.content-about {
+  text-decoration: none !important;
+  color: #3b3b3b;
+}
+
+.main-section a.content-about .main-hr {
+  margin-bottom: 14px !important;
+}
+
+.main-section .about-btn a {
+  font-family: "arial";
+  font-weight: bold;
+  font-size: 28px;
+  color: #3b3b3b;
+  text-decoration: none;
+}
+
+.main-section .ui-ux {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 45px;
+  color: #3b3b3b;
+}
+
+.main-section .passionate {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 85px;
+  color: #3b3b3b;
+}
+
+.main-section .about-content {
+  margin-bottom: 30px !important;
+  font-size: 60px !important;
+}
+
+.main-section .beyond {
+  font-size: 20px !important;
+  font-weight: normal;
+}
+
+.main-section .about-design p {
+  font-size: 25px !important;
+}
+
+.main-section .about-design .design-hr {
+  height: 300px !important;
+  width: 2px;
+  margin: 0 !important;
+  opacity: 1 !important;
+  padding: 0 !important;
+}
+
+.main-section {
+  position: relative !important;
+}
+
+.main-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80% !important;
+  background: #d4c0de;
+  border: 1px solid #771d98;
+  z-index: -8;
+}
+
+.portfolio-hr {
+  height: 300px !important;
+  width: 2px !important;
+}
+
+.buttn {
+  background-color: black;
+  border: 2px solid black;
+  color: white !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.buttn:hover {
+  background-color: #fff;
+  border: 2px solid black;
+  color: black !important;
+}
+
+hr.main-hr {
+  width: 200px !important;
+  height: 4px !important;
+  background-color: black !important;
+  opacity: 1 !important;
+  margin: 0 !important;
+}
+
+.middle .middle-heading {
+  font-family: "arial";
+  font-weight: 600;
+  font-size: 50px;
+  text-align: left;
+  color: #3b3b3b;
+}
+
+.middle .creative-content {
+  font-family: "arial";
+  font-size: 20px;
+  color: #3b3b3b;
+}
+
+.middle .middle-hr {
+  background-color: black;
+  opacity: 1 !important;
+  height: 2px !important;
+}
+
+.middle .personal {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 35px;
+  color: #3b3b3b;
+}
+
+.middle .skills h6 {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 20px;
+  color: #3b3b3b;
+}
+
+.middle .down-more {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 22px;
+  color: #3b3b3b;
+}
+
+.middle .portfolio-hr {
+  height: 300px !important;
+  width: 2px !important;
+  background-color: black !important;
+  opacity: 1 !important;
+}
+
+.work .work-content {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 60px;
+  color: #3b3b3b;
+}
+
+.collab p {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+  color: #3b3b3b;
+}
+
+.collab .footer-hr {
+  background-color: black;
+  opacity: 1 !important;
+  height: 2px !important;
+}
+
+@media (max-width: 1200px) {
+  .main-section .ui-ux {
+    font-size: 45px;
+  }
+  .main-section .passionate {
+    font-size: 86px;
+  }
+  .main-section .about-content {
+    font-size: 40px !important;
+  }
+  .main-section .creating {
+    font-size: 70px;
+  }
+  .main-section .product {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-section .ui-ux {
+    font-size: 45px;
+  }
+  .main-section .passionate {
+    font-size: 86px;
+  }
+  .main-section .about-content {
+    font-size: 40px !important;
+  }
+  .main-section .creating {
+    font-size: 70px;
+  }
+  .main-section .product {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-section .ui-ux {
+    font-size: 35px;
+  }
+  .main-section .passionate {
+    font-size: 66px;
+  }
+  .main-section .about-content {
+    font-size: 40px !important;
+  }
+  .main-section .creating {
+    font-size: 60px;
+  }
+  .main-section .product {
+    font-size: 40px;
+  }
+  .main-section .about-btn a {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-section .logo {
+    font-size: 40px;
+  }
+  .main-section .about-btn a {
+    font-size: 30px;
+  }
+  .main-section .ui-ux {
+    font-size: 25px;
+  }
+  .main-section .passionate {
+    font-size: 45px;
+  }
+  .main-section .about-content {
+    margin-bottom: 10px !important;
+    font-size: 30px !important;
+  }
+  .main-section .creating {
+    font-size: 35px;
+  }
+  .main-section .product {
+    font-size: 25px;
+  }
+  .main-section .about-btn a {
+    font-size: 20px;
+  }
+  .middle .middle-heading {
+    font-family: "arial";
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    color: #3b3b3b;
+  }
+}
+/*# sourceMappingURL=portfolio.css.map */
